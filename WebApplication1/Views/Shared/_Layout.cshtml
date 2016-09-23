@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Job'Me</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="header">
+        <div>
+            <a href='@Url.Action("Index", "Home")' id="logo">
+                <img src='@Url.Content("~/Content/images/logo.png")' />
+            </a>
+            @RenderSection("Menu")
+        </div>
+    </div>
+    <div class="body">
+        @RenderBody()
+    </div>
+    <div class="footer">
+        <div>
+            <p>
+                &#169; Saverio Malermo - @DateTime.Now.Year
+            </p>
+            <ul>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">Terms And Conditons</a>
+                </li>
+            </ul>
+            <div class="connect">
+                <a href="#" id="twitter">Twitter</a> <a href="#" id="facebook">Facebook</a> <a href="#" id="googleplus">Google+</a>
+            </div>
+        </div>
+    </div>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

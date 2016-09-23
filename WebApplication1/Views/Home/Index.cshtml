@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Acceuil";
+}
+
+@section Menu {
+    <ul>
+        <li class="selected">
+            @Html.ActionLink("Acceuil", "Index", "Home")
+        </li>
+        <li>
+            @Html.ActionLink("Nos offres", "Index", "Offre")
+        </li>
+        <li>
+            @Html.ActionLink("--", "Index", "Home")
+        </li>
+        <li>
+            @Html.ActionLink("--", "Index", "Home")
+        </li>
+    </ul>
+}
+
+<div>
+    <h2>L'autre idée du recrutement</h2>
+    <p>
+        Saverio Malermo est maintenant le leader dans le recrutement IT. Curabitur fermentum neque auctor leo laoreet laoreet. Nam a purus id urna fringilla ultrices. Cras facilisis tortor massa, sed faucibus nisl sagittis ut. Integer et ultricies urna. Cras lobortis quam eget sodales dictum. Duis euismod gravida ligula et maximus. Ut consequat erat quam, eu feugiat velit imperdiet vehicula. Quisque at venenatis nisi. Phasellus quis urna nibh. Sed nec metus non orci dapibus sodales. Proin eu justo sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae auctor orci. Sed aliquam dictum metus, sit amet ullamcorper lacus mattis et. Phasellus varius diam non posuere tristique. Maecenas interdum dui in lectus ultricies, vel venenatis mi euismod.
+    </p>
+    <ul>
+        <li>
+            <a href='@Url.Action("Index", "Home")'>
+                <img src="~/Content/images/figure2.jpg" />
+            </a>
+            @Html.ActionLink("Développeur", "Index", "Home")
+        </li>
+        <li>
+            <a href='@Url.Action("Index", "Home")'>
+                <img src="~/Content/images/figure3.jpg" />
+            </a>
+            @Html.ActionLink("Chef de projet", "Index", "Home")
+        </li>
+        <li>
+            <a href='@Url.Action("Index", "Home")'>
+                <img src="~/Content/images/figure4.jpg" />
+            </a>
+            @Html.ActionLink("Designer", "Index", "Home")
+        </li>
+        <li>
+            <a href='@Url.Action("Index", "Home")'>
+                <img src="~/Content/images/figure5.jpg" />
+            </a>
+            @Html.ActionLink("Directeur", "Index", "Home")
+        </li>
+    </ul>
+</div>
