@@ -26,28 +26,28 @@
     </p>
     <ul>
         <li>
-            <a href='@Url.Action("Index", "Offre")'>
+            <a href='@Url.Action("Index", "Offre", new { idEmploi = 1 }, null)'>
                 <img src="~/Content/images/figure2.jpg" />
             </a>
-            @Html.ActionLink("Développeur", "Index", "Offre")
+            @Html.ActionLink("Développeur", "Index", "Offre", new { idEmploi = 1 }, null)
         </li>
         <li>
-            <a href='@Url.Action("Index", "Offre")'>
+            <a href='@Url.Action("Index", "Offre", new { idEmploi = 2 }, null)'>
                 <img src="~/Content/images/figure3.jpg" />
             </a>
-            @Html.ActionLink("Chef de projet", "Index", "Offre")
+            @Html.ActionLink("Chef de projet", "Index", "Offre", new { idEmploi = 2 }, null)
         </li>
         <li>
-            <a href='@Url.Action("Index", "Offre")'>
+            <a href='@Url.Action("Index", "Offre", new { idEmploi = 3 }, null)'>
                 <img src="~/Content/images/figure4.jpg" />
             </a>
-            @Html.ActionLink("Designer", "Index", "Offre")
+            @Html.ActionLink("Designer", "Index", "Offre", new { idEmploi = 3 }, null)
         </li>
         <li>
-            <a href='@Url.Action("Index", "Offre")'>
+            <a href='@Url.Action("Index", "Offre", new { idEmploi = 4 }, null)'>
                 <img src="~/Content/images/figure5.jpg" />
             </a>
-            @Html.ActionLink("Directeur", "Index", "Offre")
+            @Html.ActionLink("Directeur", "Index", "Offre", new { idEmploi = 4 }, null)
         </li>
     </ul>
 </div>
