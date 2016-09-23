@@ -134,6 +134,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609232108411_InitialCreate.cs" />
+    <Compile Include="Migrations\201609232108411_InitialCreate.Designer.cs">
+      <DependentUpon>201609232108411_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Dal.cs" />
     <Compile Include="Models\Metier.cs" />
     <Compile Include="Models\IDal.cs" />
@@ -141,6 +146,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\SaverioMalermoDB.mdf" />
+    <Content Include="App_Data\SaverioMalermoDB_log.ldf">
+      <DependentUpon>SaverioMalermoDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\fonts\abel-regular-webfont.svg" />
     <Content Include="Content\fonts\forum-regular-webfont.svg" />
     <Content Include="Content\images\bg-absolute.png" />
@@ -199,7 +208,6 @@
     <Content Include="Views\Offre\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
@@ -210,6 +218,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Meeting\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201609232108411_InitialCreate.resx">
+      <DependentUpon>201609232108411_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
