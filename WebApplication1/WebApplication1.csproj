@@ -133,7 +133,6 @@
     <Content Include="Content\images\bg-absolute.png" />
     <Content Include="Content\images\bg-body.jpg" />
     <Content Include="Content\images\bg-content.png" />
-    <Content Include="Content\images\bg-featured.png" />
     <Content Include="Content\images\bg-featured1.png" />
     <Content Include="Content\images\bg-navigation.png" />
     <Content Include="Content\images\bg-search.png" />
@@ -141,7 +140,6 @@
     <Content Include="Content\images\bg-title.png" />
     <Content Include="Content\images\button2-hover.png" />
     <Content Include="Content\images\dashed-devider.png" />
-    <Content Include="Content\images\figure1.png" />
     <Content Include="Content\images\figure10.jpg" />
     <Content Include="Content\images\figure11.jpg" />
     <Content Include="Content\images\figure12.jpg" />
@@ -165,29 +163,14 @@
     <Content Include="Content\images\separator.jpg" />
     <Content Include="Content\images\separator2.png" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\css\Site.css" />
     <Content Include="Content\fonts\abel-regular-webfont.eot" />
     <Content Include="Content\fonts\abel-regular-webfont.ttf" />
     <Content Include="Content\fonts\abel-regular-webfont.woff" />
     <Content Include="Content\fonts\forum-regular-webfont.eot" />
     <Content Include="Content\fonts\forum-regular-webfont.ttf" />
     <Content Include="Content\fonts\forum-regular-webfont.woff" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -205,13 +188,10 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
