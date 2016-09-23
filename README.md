@@ -3,4 +3,24 @@
 Petit exercice de coding ASP.NET MVC
 
 
+```sh
+BDD : Remplacer (localdb)\v11.0 par (localdb)\mssqllocaldb
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Design - https://freewebsitetemplates.com/
