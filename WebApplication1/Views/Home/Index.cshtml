@@ -5,16 +5,16 @@
 @section Menu {
     <ul>
         <li class="selected">
-            @Html.ActionLink("Acceuil", "Index", "Home")
+            @Html.ActionLink("Accueil", "Index", "Home")
         </li>
         <li>
             @Html.ActionLink("Nos offres", "Index", "Offre")
         </li>
         <li>
-            @Html.ActionLink("--", "Index", "Home")
+            @Html.ActionLink("Nos meetings", "Index", "Meeting")
         </li>
         <li>
-            @Html.ActionLink("--", "Index", "Home")
+            @Html.ActionLink("Contact", "Index", "Contact")
         </li>
     </ul>
 }
@@ -26,28 +26,28 @@
     </p>
     <ul>
         <li>
-            <a href='@Url.Action("Index", "Home")'>
+            <a href='@Url.Action("Index", "Offre")'>
                 <img src="~/Content/images/figure2.jpg" />
             </a>
-            @Html.ActionLink("Développeur", "Index", "Home")
+            @Html.ActionLink("Développeur", "Index", "Offre")
         </li>
         <li>
-            <a href='@Url.Action("Index", "Home")'>
+            <a href='@Url.Action("Index", "Offre")'>
                 <img src="~/Content/images/figure3.jpg" />
             </a>
-            @Html.ActionLink("Chef de projet", "Index", "Home")
+            @Html.ActionLink("Chef de projet", "Index", "Offre")
         </li>
         <li>
-            <a href='@Url.Action("Index", "Home")'>
+            <a href='@Url.Action("Index", "Offre")'>
                 <img src="~/Content/images/figure4.jpg" />
             </a>
-            @Html.ActionLink("Designer", "Index", "Home")
+            @Html.ActionLink("Designer", "Index", "Offre")
         </li>
         <li>
-            <a href='@Url.Action("Index", "Home")'>
+            <a href='@Url.Action("Index", "Offre")'>
                 <img src="~/Content/images/figure5.jpg" />
             </a>
-            @Html.ActionLink("Directeur", "Index", "Home")
+            @Html.ActionLink("Directeur", "Index", "Offre")
         </li>
     </ul>
 </div>
